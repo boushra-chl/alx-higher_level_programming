@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-txt = "zen.txt"
-with open(txt, "r") as file:
-    t = file.read()
-    print(t)
+t = "zen"
+with open(t, "r") as file:
+    r = file.read()
+    print(r, end="")
