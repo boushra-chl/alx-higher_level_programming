@@ -9,5 +9,3 @@ if __name__ == "__main__":
         add = add + int(sys.argv[i])
         i = i + 1
     print("{:d}".format(add))
-
-
