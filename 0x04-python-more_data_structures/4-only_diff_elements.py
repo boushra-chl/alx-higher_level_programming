@@ -1,4 +1,4 @@
-#!/udr/bin/python3
+#!/usr/bin/python3
 def only_diff_elements(set_1, set_2):
     diff_elements = set()
     for x in set_1:
