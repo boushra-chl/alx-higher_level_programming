@@ -1,0 +1,27 @@
+"""
+This is the "add_integer" module.
+The add_integer supplies one function, add_integer
+>>> add_integer(1, 98)
+99
+"""
+def add_integer(a, b=98):
+	"""Return the addition of a and b,
+	a and b are integers or floats.
+
+	>>> add_integer(2)
+	100
+	>>> add_integer(2, "a")
+	b must be an integer
+	>>> add_integer("b", 3)
+	a must be an integer
+	>>> add_integer("c")
+	a must be an integer
+	>>> add_integer(-1)
+	97
+	>>> add_integer(3, -5)
+	-2
+	>>> add_integer(3.1, 4)
+	7
+	>>> add_integer(4, 3.1)
+	7
+	"""
