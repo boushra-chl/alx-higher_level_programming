@@ -1,5 +1,8 @@
 #!/usr/bin/python3
-"""Program that defines a new class MyList that inherites from list"""
+"""
+    Program that defines a new class MyList
+    that inherites from list
+"""
 
 
 class MyList(list):
