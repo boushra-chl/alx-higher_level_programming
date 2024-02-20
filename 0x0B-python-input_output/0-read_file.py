@@ -8,4 +8,3 @@ def read_file(filename=""):
         read_txt = f.read()
     print(read_txt, end="")
     f.close()
-
