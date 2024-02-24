@@ -1,9 +1,11 @@
 #!/usr/bin/python3
 """
 
-a module that contains one function to divied matrix by a number
+a module contains a function to divied matrix by number
 
 """
+
+
 def matrix_divided(matrix, div):
     """Return a matrix divided by an integer or float
 
@@ -13,7 +15,7 @@ def matrix_divided(matrix, div):
 
     Returns:
         divided matrix
-    
+
     Raises:
         TypeError: if matrix or div are not of integers or floats
         TypeError: if rows have not the same size
@@ -22,7 +24,7 @@ def matrix_divided(matrix, div):
     divided_matrix = []
     len_first_row = len(matrix[0])
     if div == 0:
-        raise ZeroDivisionError("division by 0")
+        raise ZeroDivisionError("division by zero")
     if not isinstance(div, int) and not isinstance(div, float):
         raise TypeError("div must be a number")
     for row in matrix:
@@ -36,4 +38,3 @@ def matrix_divided(matrix, div):
                 x_rounded = round(x, 2)
                 divided_matrix.append(x_rounded)
     return divided_matrix
-
