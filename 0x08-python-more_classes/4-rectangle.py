@@ -52,4 +52,4 @@ class Rectangle:
     def __repr__(self):
         if self.width == 0 or self.height == 0:
             return ""
-        return "Rectangle(" + str(self.width) + "," + str(self.height) + ")"
+        return "Rectangle(" + str(self.width) + ", " + str(self.height) + ")"
