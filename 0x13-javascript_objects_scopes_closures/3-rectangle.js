@@ -1,6 +1,6 @@
 #!/usr/bin/node
 class Rectangle {
-  constructor (h, w) {
+  constructor (w, h) {
     if (h <= 0 || w <= 0 || typeof w !== 'number' || typeof h !== 'number') {
       return {};
     }
@@ -9,9 +9,9 @@ class Rectangle {
   }
 
   print () {
-    for (let i = 0; i < this.width; i++) {
+    for (let i = 0; i < this.height; i++) {
       let row = '';
-      for (let j = 0; j < this.height; j++) {
+      for (let j = 0; j < this.width; j++) {
         row = row + 'X';
       }
       console.log(row);
