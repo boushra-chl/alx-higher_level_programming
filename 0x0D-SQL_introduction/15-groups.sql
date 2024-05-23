@@ -1,2 +1,2 @@
--- list records with same score
-SELECT score, COUNT(*) AS number FROM second_table GROUP BY score ORDER BY score DESC;
+-- list all records
+SELECT score, name FROM second_table WHERE name IS NOT NULL ORDER BY score DESC;
